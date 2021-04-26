@@ -367,8 +367,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
+    color: $grey-color;
+    border-top: 1px solid $grey-color;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -386,9 +386,9 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          background-color: $blue-color;
+          padding-left: 2rem;
+          padding-right: 2rem;
           a {
             color: white;
             &:hover {
@@ -415,6 +415,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bolder;
         }
       }
       .links {
