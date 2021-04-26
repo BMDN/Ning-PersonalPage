@@ -58,7 +58,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Emal is the best way to contact me.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -143,7 +143,7 @@ github: [metadata]
 scholar:
 
   last_name: Ding
-  first_name: [Ning, N.]
+  first_name: [Ning, N., Ning*]
 
   style: apa
   locale: en
