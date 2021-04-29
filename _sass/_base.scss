@@ -167,7 +167,9 @@ a, table.table a {
 // News
 
 .news table td {
+  width: 80%;
   font-size: 1rem;
+  padding-right: 8rem;
   color: var(--global-text-color);
 }
 
@@ -382,13 +384,14 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .abbr {
+        width: 0.5rem;
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
           background-color: $blue-color;
-          padding-left: 2rem;
-          padding-right: 2rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
           a {
             color: white;
             &:hover {
