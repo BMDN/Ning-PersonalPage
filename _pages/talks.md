@@ -5,6 +5,11 @@ title: talks
 nav: true
 ---
 
+
+
+- May 2021 &nbsp;&nbsp;&nbsp; AIS Pre-conference. *Few-NERD: Not Only A Few-shot NER dataset.*
+- May 2021 &nbsp;&nbsp;&nbsp; AI TIME. *Prototypical Representation Learning for Relation Extraction.*
+- May 2021 &nbsp;&nbsp;&nbsp; Tsinghua University. *Advances of Noisy Label Learning.*
 - Apr 2021 &nbsp;&nbsp;&nbsp; Alibaba DAMO Academy. *Sentence Embeddings of PLMs.*
 - Mar 2021 &nbsp;&nbsp;&nbsp; Alibaba DAMO Academy. *Prototypical Representation Learning for Relation Extraction.*
 - May 2020 &nbsp;&nbsp;&nbsp; Leiphone. *Coupling Distant Annotation and Adversarial training for CWS.*
