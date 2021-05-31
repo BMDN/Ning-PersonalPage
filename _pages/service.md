@@ -10,3 +10,5 @@ nav: true
 - ACL/NeurIPS/COLING 2020
 - Neural Networks
 
+#### Student Committee
+- Chinese Information Processing Society of China, Youth Working Committee
