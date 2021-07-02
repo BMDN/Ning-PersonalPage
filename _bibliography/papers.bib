@@ -39,7 +39,7 @@
 
 @inproceedings{wang2021cline,
   abbr={ACL},
-  title={Learning Robust Sentence Embeddings with Semantic Negative Examples},
+  title={CLINE: Contrastive Learning with Semantic Negative Examples for Natural Language Understanding},
   author={Wang, Dong and Ding, Ning* and Li, Piji and Zheng, Hai-Tao},
   booktitle={Annual Meeting of the Association for Computational Linguistics, <br> ACL},
   year={2021}
@@ -70,7 +70,7 @@
   html = {https://www.aclweb.org/anthology/2020.acl-main.595/},
   abstract = {Fully supervised neural approaches have achieved significant progress in the task of Chinese word segmentation (CWS). Nevertheless, the performance of supervised models always drops gravely if the domain shifts due to the distribution gap across domains and the out of vocabulary (OOV) problem. In order to simultaneously alleviate the issues, this paper intuitively couples distant annotation and adversarial training for cross-domain CWS. 1) We rethink the essence of “Chinese words” and design an automatic distant annotation mechanism, which does not need any supervision or pre-defined dictionaries on the target domain. The method could effectively explore domain-specific words and distantly annotate the raw texts for the target domain. 2) We further develop a sentence-level adversarial training procedure to perform noise reduction and maximum utilization of the source domain information. Experiments on multiple real-world datasets across various domains show the superiority and robustness of our model, significantly outperforming previous state-of-the-arts cross-domain CWS methods.},
   code = {https://github.com/Alibaba-NLP/DAAT-CWS},
-  pdf = {ACL2020-coupling}
+  pdf = {ACL2020-coupling.pdf}
 }
 
 @inproceedings{zhou-etal-2020-hierarchy,
@@ -94,7 +94,7 @@
     pages = "1106--1117",
     abstract = "Hierarchical text classification is an essential yet challenging subtask of multi-label text classification with a taxonomic hierarchy. Existing methods have difficulties in modeling the hierarchical label structure in a global view. Furthermore, they cannot make full use of the mutual interactions between the text feature space and the label space. In this paper, we formulate the hierarchy as a directed graph and introduce hierarchy-aware structure encoders for modeling label dependencies. Based on the hierarchy encoder, we propose a novel end-to-end hierarchy-aware global model (HiAGM) with two variants. A multi-label attention variant (HiAGM-LA) learns hierarchy-aware label embeddings through the hierarchy encoder and conducts inductive fusion of label-aware text features. A text feature propagation model (HiAGM-TP) is proposed as the deductive variant that directly feeds text features into hierarchy encoders. Compared with previous works, both HiAGM-LA and HiAGM-TP achieve significant and consistent improvements on three benchmark datasets.",
     code = "https://github.com/Alibaba-NLP/HiAGM",
-    pdf = "ACL2020-tc"
+    pdf = "ACL2020-tc.pdf"
 }
 
 
@@ -108,7 +108,7 @@ abbr={TKDE},
  year = {2020},
  html = {https://ieeexplore.ieee.org/abstract/document/8974254},
  abstract = {Knowledge graphs (KG) often encounter knowledge incompleteness. The path reasoning that predicts the unknown path relation between pairwise entities based on existing facts is one of the most promising approaches to the knowledge graph completion. However, most conventional path reasoning methods exclusively consider the entity description included in fact triples, ignoring both the type information of entities and the interaction between different semantic representations. In this study, we propose a novel method, Type-aware Attentive Path Reasoning (TAPR), to complete the knowledge graph by simultaneously considering KG structural information, textual information, and type information. More specifically, we first leverage types to enrich the representational learning of entities and relationships. Next, we describe a type-level attention to select the most relevant type of given entity in a specific triple without any predefined rules or patterns to reduce the impact of noisy types. After learning the distributed representation of all paths, path-level attention assigns different weights to paths, from which relations among entity pairs are calculated. We conduct a series of experiments on a real-world dataset to demonstrate the effectiveness of TAPR. Experimental results show that our method significantly outperforms all baselines on link prediction and entity prediction tasks.},
- pdf = {TKDE-kg},
+ pdf = {TKDE-kg.pdf},
 }
 
 @inproceedings{lin2020integrating,
@@ -117,7 +117,7 @@ abbr={AAAI},
   author={Lin, Zibo and Li, Ziran and Ding, Ning and Zheng, Hai-Tao and Shen, Ying and Zhao, Xiaobin and Zheng, Cong-Zhi},
   booktitle={AAAI Conference on Artificial Intelligence, <br> AAAI},
   year={2020},
-  pdf = {AAAI2020-para},
+  pdf = {AAAI2020-para.pdf},
   code={https://github.com/LINMouMouZiBo/KEPN},
   html={https://ojs.aaai.org/index.php/AAAI/article/view/6354},
   abstract={Paraphrase generation aims to rewrite a text with different words while keeping the same meaning. Previous work performs the task based solely on the given dataset while ignoring the availability of external linguistic knowledge. However, it is intuitive that a model can generate more expressive and diverse paraphrase with the help of such knowledge. To fill this gap, we propose Knowledge-Enhanced Paraphrase Network (KEPN), a transformer-based framework that can leverage external linguistic knowledge to facilitate paraphrase generation. (1) The model integrates synonym information from the external linguistic knowledge into the paraphrase generator, which is used to guide the decision on whether to generate a new word or replace it with a synonym. (2) To locate the synonym pairs more accurately, we adopt an incremental encoding scheme to incorporate position information of each synonym. Besides, a multi-task architecture is designed to help the framework jointly learn the selection of synonym pairs and the generation of expressive paraphrase. Experimental results on both English and Chinese datasets show that our method significantly outperforms the state-of-the-art approaches in terms of both automatic and human evaluation.}
@@ -134,7 +134,7 @@ abbr={IJCAI},
   year      = {2020},
   html       = {https://doi.org/10.24963/ijcai.2020/522},
   abstract = {We study the problem of infobox-to-text generation that aims to generate a textual description from a key-value table. Representing the input infobox as a sequence, previous neural methods using end-to-end models without order-planning suffer from the problems of incoherence and inadaptability to disordered input. Recent planning-based models only implement static order-planning to guide the generation, which may cause error propagation between planning and generation. To address these issues, we propose a Tree-like PLanning based Attention Network (Tree-PLAN) which leverages both static order-planning and dynamic tuning to guide the generation. A novel tree-like tuning encoder is designed to dynamically tune the static order-plan for better planning by merging the most relevant attributes together layer by layer. Experiments conducted on two datasets show that our model outperforms previous methods on both automatic and human evaluation, and demonstrate that our model has better adaptability to disordered input.},
-  pdf = {IJCAI2020-infobox}
+  pdf = {IJCAI2020-infobox.pdf}
 }
 
 @inproceedings{ijcai2020-523,
@@ -148,7 +148,7 @@ abbr={IJCAI},
   doi       = {10.24963/ijcai.2020/523},
   abstract       = {Generating a textual description from a set of RDF triplets is a challenging task in natural language generation. Recent neural methods have become the mainstream for this task, which often generate sentences from scratch. However, due to the huge gap between the structured input and the unstructured output, the input triples alone are insufficient to decide an expressive and specific description. In this paper, we propose a novel anchor-to-prototype framework to bridge the gap between structured RDF triples and natural text. The model retrieves a set of prototype descriptions from the training data and extracts writing patterns from them to guide the generation process. Furthermore, to make a more precise use of the retrieved prototypes, we employ a triple anchor that aligns the input triples into groups so as to better match the prototypes. Experimental results on both English and Chinese datasets show that our method significantly outperforms the state-of-the-art baselines in terms of both automatic and manual evaluation, demonstrating the benefit of learning guidance from retrieved prototypes to facilitate triple-to-text generation.},
   html       = {https://doi.org/10.24963/ijcai.2020/523},
-  pdf = {IJCAI2020-triple}
+  pdf = {IJCAI2020-triple.pdf}
 
 }
 
