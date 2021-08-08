@@ -1,11 +1,24 @@
 ---
 ---
 
+
+@inproceedings{hu2021knowledgeable,
+      title={Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification}, 
+      author={Shengding Hu and Ning Ding and Huadong Wang and Zhiyuan Liu and Juanzi Li and Maosong Sun},
+      year={2021},
+      eprint={2108.02035},
+      archivePrefix={arXiv},
+      html={https://arxiv.org/abs/2108.02035},
+      pdf={https://arxiv.org/pdf/2108.02035.pdf},
+      abstract={Tuning pre-trained language models (PLMs) with task-specific prompts has been a promising approach for text classification. Particularly, previous studies suggest that prompt-tuning has remarkable superiority in the low-data scenario over the generic fine-tuning methods with extra classifiers. The core idea of prompt-tuning is to insert text pieces, i.e., template, to the input and transform a classification problem into a masked language modeling problem, where a crucial step is to construct a projection, i.e., verbalizer, between a label space and a label word space. A verbalizer is usually handcrafted or searched by gradient descent, which may lack coverage and bring considerable bias and high variances to the results. In this work, we focus on incorporating external knowledge into the verbalizer, forming a knowledgeable prompt-tuning (KPT), to improve and stabilize prompt-tuning. Specifically, we expand the label word space of the verbalizer using external knowledge bases (KBs) and refine the expanded label word space with the PLM itself before predicting with the expanded label word space. Extensive experiments on zero and few-shot text classification tasks demonstrate the effectiveness of knowledgeable prompt-tuning.}
+}
+
+
 @inproceedings{han2021pre,
-  abbr={Arxiv},
+  abbr={arXiv},
   title={Pre-Trained Models: Past, Present and Future},
   author={Han, Xu* and Zhang, Zhengyan* and Ding, Ning* and Gu, Yuxian* and Liu, Xiao* and Huo, Yuqi* and Qiu, Jiezhong and Zhang, Liang and Han, Wentao and Huang, Minlie and Jin, Qin and Lan, Yanyan and Liu, Yang and Liu, Zhiyuan and Lu, Zhiwu and Qiu, Xipeng and Song, Ruihua and Tang, Jie and Wen, Ji-Rong and Yuan, Jinhui and Zhao, Wayne Xin and Zhu Jun},
-  booktitle={Arxiv},
+  booktitle={arXiv},
   abstract={Large-scale pre-trained models (PTMs) such as BERT and GPT have recently achieved great success and become a milestone in the field of artificial intelligence (AI). Owing to sophisticated pre-training objectives and huge model parameters, large-scale PTMs can ef- fectively capture knowledge from massive la- beled and unlabeled data. By storing knowl- edge into huge parameters and fine-tuning on specific tasks, the rich knowledge implicitly encoded in huge parameters can benefit a vari- ety of downstream tasks, which has been exten- sively demonstrated via experimental verifica- tion and empirical analysis. It is now the con- sensus of the AI community to adopt PTMs as backbone for downstream tasks rather than learning models from scratch. In this paper, we take a deep look into the history of pre- training, especially its special relation with transfer learning and self-supervised learning, to reveal the crucial position of PTMs in the AI development spectrum. Further, we compre- hensively review the latest breakthroughs of PTMs. These breakthroughs are driven by the surge of computational power and the increas- ing availability of data, towards four impor- tant directions: designing effective architec- tures, utilizing rich contexts, improving com- putational efficiency, and conducting interpre- tation and theoretical analysis. Finally, we dis- cuss a series of open problems and research directions of PTMs, and hope our view can in- spire and advance the future study of PTMs.},
   html={https://arxiv.org/abs/2106.07139},
   pdf={https://arxiv.org/pdf/2106.07139.pdf},
@@ -15,10 +28,10 @@
 
 
 @inproceedings{han2021ptr,
-  abbr={Arxiv},
+  abbr={arXiv},
   title={PTR: Prompt Tuning with Rules for Text Classification},
   author={Han, Xu and Zhao, Weilin and Ding, Ning and Liu, Zhiyuan and Sun, Maosong},
-  booktitle={Arxiv},
+  booktitle={arXiv},
   abstract={Fine-tuned pre-trained language models (PLMs) have achieved awesome performance on almost all NLP tasks. By using additional prompts to fine-tune PLMs, we can further stimulate the rich knowledge distributed in PLMs to better serve downstream task. Prompt tuning has achieved promising results on some few-class classification tasks such as sentiment classification and natural language inference. However, manually designing lots of language prompts is cumbersome and fallible. For those auto-generated prompts, it is also expensive and time-consuming to verify their effectiveness in non-few-shot scenarios. Hence, it is challenging for prompt tuning to address many-class classification tasks. To this end, we propose prompt tuning with rules (PTR) for many-class text classi- fication, and apply logic rules to construct prompts with several sub-prompts. In this way, PTR is able to encode prior knowledge of each class into prompt tuning. We conduct experiments on relation classification, a typical many-class classification task, and the results on benchmarks show that PTR can significantly and consistently outperform existing state-of-the-art baselines. This indicates that PTR is a promising approach to take advantage of PLMs for those complicated classification tasks.},
   html={https://arxiv.org/abs/2105.11259},
   pdf={https://arxiv.org/pdf/2105.11259.pdf},
