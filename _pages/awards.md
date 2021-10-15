@@ -5,6 +5,7 @@ title: awards
 nav: true
 ---
 
+- *National Scholarship* for Ph.D student, 2021.
 - *National Scholarship* for Ph.D student, 2020.
 - *Tsingfeng Scholarship*, Tsinghua University, 2019.
 - *CACS Scholarship*, 2019
